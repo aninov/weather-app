@@ -1,0 +1,6 @@
+.selectUnits {
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}

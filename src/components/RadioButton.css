@@ -1,0 +1,28 @@
+.radio_label {
+    border: 1px solid;
+    padding: 2px 10px;
+
+    input {
+        display: none;
+    }
+    
+    &:hover { 
+        cursor: pointer;
+        background-color: gray;
+        color: white;
+    }
+
+    &.active { 
+        cursor: pointer;
+        background-color: gray;
+        color: white;
+    }
+    
+    &:first-child { 
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    &:last-child { 
+        border-radius: 0px 5px 5px 0px;
+    }
+}

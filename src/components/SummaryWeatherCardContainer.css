@@ -1,0 +1,12 @@
+.card-container {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media (min-width:  741px) {
+    .card-container {
+        flex-direction: row;
+    }
+}
