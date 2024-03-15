@@ -57,6 +57,15 @@ const App = () => {
             }
           />
           <Route
+            path="/*"
+            element={
+              <TodaysWeather
+                userLocation={userLocation}
+                units={units}
+              />
+            }
+          />
+          <Route
             path="forecast/:id"
             element={
               <DetailedForecast
